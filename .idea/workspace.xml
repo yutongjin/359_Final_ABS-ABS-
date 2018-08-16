@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f59854fd-ce7d-4979-b4a1-237490209649" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/BookSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/IndividualItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Magazine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Type/Art.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Type/Business.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Type/Engineering.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Type/Fiction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Type/Science.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Type/Type.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/Item/VideoSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/Data/User/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f59854fd-ce7d-4979-b4a1-237490209649" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +42,8 @@
       <file leaf-file-name="Item.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Item.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            <state relative-caret-position="135">
+              <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -190,14 +173,6 @@
               <item name="bookmarkers" type="462c0819:PsiDirectoryNode" />
               <item name="Data" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="359_FFFFF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="359_FFFFF" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="bookmarkers" type="462c0819:PsiDirectoryNode" />
-              <item name="Data" type="462c0819:PsiDirectoryNode" />
-              <item name="Item" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -252,16 +227,15 @@
       <option name="presentableId" value="Default" />
       <updated>1534380360448</updated>
       <workItem from="1534380364674" duration="980000" />
-      <workItem from="1534393647198" duration="751000" />
+      <workItem from="1534393647198" duration="1255000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1731000" />
+    <option name="totallyTimeSpent" value="2235000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="469" y="23" width="971" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -393,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/Data/Item/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        <state relative-caret-position="135">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
