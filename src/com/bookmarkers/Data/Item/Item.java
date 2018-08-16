@@ -1,6 +1,5 @@
 package com.bookmarkers.Data.Item;
 
-import javax.xml.crypto.Data;
 import java.util.Date;
 import java.util.List;
 import com.bookmarkers.Data.User.User;

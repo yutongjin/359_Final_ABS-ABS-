@@ -6,4 +6,5 @@ package com.bookmarkers.Data.User;
  * @Description :
  */
 public class User {
+    
 }
