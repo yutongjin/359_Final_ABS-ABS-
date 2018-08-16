@@ -17,6 +17,7 @@ public class User {
     List<Item> itemList;
     String username;
     String password;
+    int[] left;//the number of each type that a user can borrow;
 
     public void checkOut(String Id){
 

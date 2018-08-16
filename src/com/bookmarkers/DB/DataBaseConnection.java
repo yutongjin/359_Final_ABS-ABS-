@@ -1,7 +1,8 @@
+
 package com.bookmarkers.DB;
-
 import java.sql.*;
-
+//Return connection with database
+//Singleton
 public class DataBaseConnection {
     private static DataBaseConnection ourInstance = new DataBaseConnection();
 
