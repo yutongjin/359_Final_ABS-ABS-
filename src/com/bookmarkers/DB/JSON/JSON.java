@@ -12,7 +12,7 @@ import java.sql.*;
  * @Description :
  */
 public class JSON {
-    public static void main(String[] args) {
+  /*  public static void main(String[] args) {
         try {
             Class.forName("com.mysql.jdbc.Driver");//加载数据库驱动
             Connection connection = getConnection();
@@ -59,5 +59,5 @@ public class JSON {
         String password = "Jyt6554056!";
 
         return DriverManager.getConnection(url, user, password);
-    }
+    }*/
 }

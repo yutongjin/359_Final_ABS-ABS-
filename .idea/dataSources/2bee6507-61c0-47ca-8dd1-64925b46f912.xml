@@ -1114,76 +1114,122 @@
     </column>
     <column id="280" parent="277" name="Name">
       <Position>2</Position>
-      <DataType>varchar(15)|0s</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <DefaultExpression>&apos;XXX&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="281" parent="277" name="Active">
+    <column id="281" parent="277" name="DateCreated">
       <Position>3</Position>
-      <DataType>tinyint(1)|0s</DataType>
+      <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="282" parent="277" name="DateCreated">
+    <column id="282" parent="277" name="KeyWords">
       <Position>4</Position>
-      <DataType>date|0s</DataType>
+      <DataType>varchar(100)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="283" parent="277" name="KeyWords">
+    <column id="283" parent="277" name="ReturnDate">
       <Position>5</Position>
-      <DataType>json|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="284" parent="277" name="ReturnDate">
-      <Position>6</Position>
       <DataType>date|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="285" parent="277" name="Booker">
-      <Position>7</Position>
+    <column id="284" parent="277" name="Booker">
+      <Position>6</Position>
       <DataType>varchar(15)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="286" parent="277" name="cost">
-      <Position>8</Position>
+    <column id="285" parent="277" name="cost">
+      <Position>7</Position>
       <DataType>int(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="287" parent="277" name="Type">
+    <column id="286" parent="277" name="Type">
+      <Position>8</Position>
+      <DataType>varchar(15)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="287" parent="277" name="ItemType">
       <Position>9</Position>
       <DataType>varchar(15)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="288" parent="277" name="ItemType">
+    <column id="288" parent="277" name="Active">
       <Position>10</Position>
-      <DataType>varchar(15)|0s</DataType>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="289" parent="278" name="username">
+    <column id="289" parent="277" name="setNumber">
+      <Position>11</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>&apos;0&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="290" parent="277" name="Arthur">
+      <Position>12</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="291" parent="278" name="username">
       <Position>1</Position>
       <DataType>varchar(20)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="290" parent="278" name="password">
+    <column id="292" parent="278" name="password">
       <Position>2</Position>
       <DataType>varchar(32)|0s</DataType>
       <DefaultExpression>&apos;000000&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="291" parent="278" name="email">
+    <column id="293" parent="278" name="email">
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
       <DefaultExpression>&apos;xxx@.com&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="292" parent="278" name="age">
+    <column id="294" parent="278" name="age">
       <Position>4</Position>
       <DataType>int(3)|0s</DataType>
       <DefaultExpression>&apos;25&apos;</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="293" parent="278" name="Name">
+    <column id="295" parent="278" name="Name">
       <Position>5</Position>
       <DataType>varchar(25)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="296" parent="278" name="active">
+      <Position>6</Position>
+      <DataType>tinyint(1)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="297" parent="278" name="itemList">
+      <Position>7</Position>
+      <DataType>varchar(150)|0s</DataType>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="298" parent="278" name="balanceBook">
+      <Position>8</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>&apos;3&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="299" parent="278" name="balanceMagazine">
+      <Position>9</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="300" parent="278" name="balanceVideo">
+      <Position>10</Position>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>&apos;1&apos;</DefaultExpression>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="301" parent="278" name="uId">
+      <Position>11</Position>
+      <DataType>varchar(11)|0s</DataType>
       <ColumnKind>normal</ColumnKind>
     </column>
   </database-model>
