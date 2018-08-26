@@ -1,9 +1,7 @@
-package com.bookmarkers;
+package com.bookmarkers.UI.Controller;
 
 import com.bookmarkers.DB.Service.Impl.UserServiceImpl;
 import com.bookmarkers.Main;
-import com.bookmarkers.Stage.ControlledStage;
-import com.bookmarkers.Stage.StageManager;
 import com.jfoenix.controls.JFXButton;
 import com.sun.javafx.robot.impl.FXRobotHelper;
 import javafx.collections.ObservableList;
@@ -15,7 +13,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
-
+import com.bookmarkers.UI.Stage.*;
 import java.io.IOException;
 
 /**
@@ -44,30 +42,13 @@ public class LoginController  extends Main implements ControlledStage{
            boolean result =  new UserServiceImpl().login(userName,passWord);
            if(result){
                //
+               System.out.println("正确");
                //stage.close();
-               System.out.println("success");
-               Parent root = null;
-               try {
-                   root = FXMLLoader.load(getClass().getResource("UI.fxml"));
-                   System.out.println("success change ");
-               } catch (IOException e) {
-                   System.out.println("faild");
-                   e.printStackTrace();
-               }
-               ObservableList<Stage> stage = FXRobotHelper.getStages();
-               Scene scene = null;
-               try {
-                   scene = new Scene(FXMLLoader.load(getClass().getResource("UI.fxml")));
-               } catch (IOException e) {
-                   e.printStackTrace();
-               }
-               stage.get(0).setScene(scene);
-               stage.get(0).show();
+               stageManager.setStage("UI","Login");
 
 
                //跳转至用户界面
            }
-
            //弹出登陆失败界面
            else System.out.println("login failed");
 

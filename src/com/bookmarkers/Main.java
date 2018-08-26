@@ -1,12 +1,8 @@
 package com.bookmarkers;
 
-import com.bookmarkers.Stage.StageManager;
+import com.bookmarkers.UI.Stage.StageManager;
 import javafx.application.Application;
-import javafx.scene.*;
 import javafx.stage.Stage;
-import javafx.scene.Parent;
-import javafx.fxml.FXMLLoader;
-import javafx.stage.StageStyle;
 
 public class Main extends Application {
     public static String mainViewID = "Login";
@@ -31,7 +27,7 @@ public class Main extends Application {
         stageManager.setPrimaryStage("primaryStage", primaryStage);
 
         //加载两个舞台，每个界面一个舞台
-        //stageManager.loadStage(loginViewID, loginViewRes);
+        stageManager.loadStage(loginViewID, loginViewRes);
         stageManager.loadStage(mainViewID, mainViewRes);
 
         //显示MainView舞台

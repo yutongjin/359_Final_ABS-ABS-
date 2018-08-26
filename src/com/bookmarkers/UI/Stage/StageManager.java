@@ -1,17 +1,11 @@
-package com.bookmarkers.Stage;
+package com.bookmarkers.UI.Stage;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 import javafx.stage.StageStyle;
-
-import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
-import javafx.scene.layout.Pane;
-import javafx.stage.Stage;
-import javafx.stage.StageStyle;
-
+import com.bookmarkers.UI.Controller.*;
 import java.util.HashMap;
 /**
  * @Author : Yutong Jin
@@ -67,7 +61,7 @@ public class StageManager {
     public boolean loadStage(String name, String resources, StageStyle... styles) {
         try {
             //加载FXML资源文件
-            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/bookmarkers/"+resources));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("/com/bookmarkers/UI/Stage/"+resources));
 
 
             Pane tempPane =  (Pane) loader.load();

@@ -1,13 +1,10 @@
-package com.bookmarkers;
+package com.bookmarkers.UI.Controller;
 
-import com.bookmarkers.Main;
-import com.bookmarkers.Stage.ControlledStage;
-import com.bookmarkers.Stage.StageManager;
+
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.TextArea;
-
+import com.bookmarkers.UI.Stage.*;
 /**
  * @Author : Yutong Jin
  * @date : 8/25/18
@@ -33,7 +30,6 @@ public class ControllerTest implements ControlledStage {
 
 
     }
-
     @Override
     public void setStageController(StageManager stageManager) {
         this.stageManager = stageManager;
