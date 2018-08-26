@@ -1,11 +1,10 @@
 
-package com.bookmarkers.DB;
+package com.bookmarkers.DB.DatabaseConnection;
 import java.sql.*;
 //Return connection with database
 //Singleton
 public class DataBaseConnection {
     private static DataBaseConnection ourInstance = new DataBaseConnection();
-
     public static DataBaseConnection getInstance() {
         return ourInstance;
     }
@@ -20,8 +19,6 @@ public class DataBaseConnection {
                 System.out.println("DataBase loaded successfully!");
             }
             return connection;
-
-
         } catch (SQLException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {
