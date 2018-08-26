@@ -103,4 +103,26 @@ public class UserDAOImpl extends AbstractDAO implements UserDAO {
         }
 
     }
+
+    @Override
+    public boolean login(String userName, String passWord) throws SQLException {
+        String sql = "SELECT password FROM user where username ='" + userName+"'";
+        System.out.println("准备找");
+        java.sql.Connection connection = this.conn;
+        Statement statement = connection.createStatement();
+        String rightPassWord = "";
+        try (ResultSet resultSet = statement.executeQuery(sql)) {
+            ResultSetMetaData metaData = resultSet.getMetaData();
+            while (resultSet.next()) {
+                System.out.println("找到了");
+                String columnName = metaData.getColumnLabel(1);
+                rightPassWord = resultSet.getString(columnName);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        //end : look up status
+        System.out.println(rightPassWord + "是真正的密码");
+        return passWord.equals(rightPassWord);
+    }
 }

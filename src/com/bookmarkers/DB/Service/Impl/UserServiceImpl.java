@@ -82,4 +82,18 @@ public class UserServiceImpl implements UserService {
         searchService= new SearchByKeywords(dbc);
         searchService.search(KeyWord);
     }
+
+    @Override
+    public boolean login(String username, String password) {
+
+        try {
+            boolean result = DAOFactory.getUserDAOInstance(dbc).login(username,password);
+            return result;
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+
+
+        return false;
+    }
 }

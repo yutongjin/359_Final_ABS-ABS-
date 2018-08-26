@@ -8,6 +8,7 @@ import javafx.fxml.FXMLLoader;
 public class Main extends Application {
 
 
+   public Stage stage ;
     //Button button ;
     public static void main(String[] args) {
        launch(args);
@@ -15,10 +16,12 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+        this.stage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("UserHome.fxml"));
         primaryStage.setTitle("Welcome to bookmarks");
         primaryStage.setScene(new Scene(root, 300, 275));
         primaryStage.show();
+
     }
 //    public void start(Stage primaryStage) throws Exception {
 //        primaryStage.setTitle("BookMarkers");

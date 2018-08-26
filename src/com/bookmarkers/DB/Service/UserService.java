@@ -9,5 +9,5 @@ public interface UserService {
     public abstract void searchByAuthor(String Author) ;
     public abstract void searchById(String Id) ;
     public abstract void searchByKeyWord(String KeyWord) ;
-
+    public abstract boolean login(String username,String password);
 }

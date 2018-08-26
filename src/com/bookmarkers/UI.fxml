@@ -8,7 +8,7 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ControllerTest">
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bookmarkers.ControllerTest">
    <children>
       <JFXButton fx:id="button" buttonType="RAISED" defaultButton="true" layoutX="83.0" layoutY="44.0" onAction="#onButonCLick" prefHeight="159.0" prefWidth="295.0" text="啦啦啦" textFill="#b95e5e">
          <ripplerFill>
