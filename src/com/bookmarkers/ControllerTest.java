@@ -1,6 +1,8 @@
 package com.bookmarkers;
 
 import com.bookmarkers.Main;
+import com.bookmarkers.Stage.ControlledStage;
+import com.bookmarkers.Stage.StageManager;
 import com.jfoenix.controls.JFXButton;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -12,8 +14,9 @@ import javafx.scene.control.TextArea;
  * @Description :
  */
 
-public class ControllerTest {
+public class ControllerTest implements ControlledStage {
 
+    StageManager stageManager;
     private static final String ASS_WE_CAN = "Ass we can";
     private static final String BOY_NEXT_DOOR = "Boy next door";
 
@@ -29,6 +32,11 @@ public class ControllerTest {
     public void login(ActionEvent actionEvent) {
 
 
+    }
+
+    @Override
+    public void setStageController(StageManager stageManager) {
+        this.stageManager = stageManager;
     }
 }
 

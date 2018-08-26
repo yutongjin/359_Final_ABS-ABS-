@@ -2,6 +2,8 @@ package com.bookmarkers;
 
 import com.bookmarkers.DB.Service.Impl.UserServiceImpl;
 import com.bookmarkers.Main;
+import com.bookmarkers.Stage.ControlledStage;
+import com.bookmarkers.Stage.StageManager;
 import com.jfoenix.controls.JFXButton;
 import com.sun.javafx.robot.impl.FXRobotHelper;
 import javafx.collections.ObservableList;
@@ -21,8 +23,9 @@ import java.io.IOException;
  * @date : 8/25/18
  * @Description :
  */
-public class LoginController extends Main {
+public class LoginController  extends Main implements ControlledStage{
 
+        StageManager stageManager;
 
         @FXML
         private PasswordField password;
@@ -70,5 +73,9 @@ public class LoginController extends Main {
 
         }
 
+    @Override
+    public void setStageController(StageManager stageManager) {
+        this.stageManager = stageManager;
+    }
 }
 

@@ -1,14 +1,23 @@
 package com.bookmarkers;
 
+import com.bookmarkers.Stage.StageManager;
 import javafx.application.Application;
 import javafx.scene.*;
 import javafx.stage.Stage;
 import javafx.scene.Parent;
 import javafx.fxml.FXMLLoader;
+import javafx.stage.StageStyle;
+
 public class Main extends Application {
+    public static String mainViewID = "Login";
+    public static String mainViewRes = "Login.fxml";
+
+    public static String loginViewID = "UI";
+    public static String loginViewRes = "UI.fxml";
+
+    private StageManager stageManager;
 
 
-   public Stage stage ;
     //Button button ;
     public static void main(String[] args) {
        launch(args);
@@ -16,11 +25,17 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        this.stage = new Stage();
-        Parent root = FXMLLoader.load(getClass().getResource("UserHome.fxml"));
-        primaryStage.setTitle("Welcome to bookmarks");
-        primaryStage.setScene(new Scene(root, 300, 275));
-        primaryStage.show();
+        stageManager = new StageManager();
+
+        //将主舞台交给控制器处理
+        stageManager.setPrimaryStage("primaryStage", primaryStage);
+
+        //加载两个舞台，每个界面一个舞台
+        //stageManager.loadStage(loginViewID, loginViewRes);
+        stageManager.loadStage(mainViewID, mainViewRes);
+
+        //显示MainView舞台
+        stageManager.setStage(mainViewID);
 
     }
 //    public void start(Stage primaryStage) throws Exception {
