@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.bookmarkers.UI.Controller.SearchPanelController">
+   <children>
+      <JFXRadioButton fx:id="rbtnName" layoutX="46.0" layoutY="123.0" onAction="#onRbtnNameClicked" text="Search by Item Name" />
+      <JFXRadioButton fx:id="rbtnAuthor" layoutX="46.0" layoutY="158.0" onAction="#onRbtnAuthorClicked" text="Search by author" />
+      <JFXRadioButton fx:id="rbtnKeyword" layoutX="46.0" layoutY="200.0" onAction="#onRbtnKeywordClicked" text="Search by keyword" />
+      <JFXRadioButton fx:id="rbtnID" layoutX="46.0" layoutY="241.0" onAction="#onRbtnIDClicked" text="Search by Item ID" />
+      <JFXTextField fx:id="textfieldInpput" layoutX="264.0" layoutY="175.0" onAction="#onTextfieldInpputClicked" />
+      <JFXButton fx:id="btnSearch" layoutX="221.0" layoutY="292.0" onAction="#onBtnSearchClicked" text="Search" />
+      <JFXButton fx:id="btnBack" layoutX="366.0" layoutY="292.0" onAction="#onBtnBackClicked" text="Back" />
+   </children>
+</AnchorPane>

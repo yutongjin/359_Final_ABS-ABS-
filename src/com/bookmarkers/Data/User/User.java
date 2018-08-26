@@ -4,9 +4,9 @@ import com.bookmarkers.DB.DatabaseConnection.DataBaseConnection;
 import com.bookmarkers.Data.Item.Item;
 import com.bookmarkers.Data.Mediator.ConcreteMediator;
 import com.bookmarkers.Data.Mediator.Mediator;
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
+//import org.json.JSONArray;
+//import org.json.JSONException;
+//import org.json.JSONObject;
 
 import java.sql.*;
 import java.text.ParseException;
