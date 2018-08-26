@@ -1,6 +1,7 @@
 package com.bookmarkers.DB.Factory.DAOFactory;
 
 import com.bookmarkers.DB.DAO.AdminDAO;
+import com.bookmarkers.DB.DAO.Impl.AdminDAOImpl;
 import com.bookmarkers.DB.DAO.Impl.ItemDAOImpl;
 import com.bookmarkers.DB.DAO.Impl.UserDAOImpl;
 import com.bookmarkers.DB.DAO.ItemDAO;
@@ -22,6 +23,9 @@ public class DAOFactory {
     }
     public static ItemDAO getItemDAOInstance(Connection conn){
         return new ItemDAOImpl(conn);
+    }
+    public static AdminDAO getAdminDAOInstance(Connection conn){
+        return new AdminDAOImpl(conn);
     }
 
 }

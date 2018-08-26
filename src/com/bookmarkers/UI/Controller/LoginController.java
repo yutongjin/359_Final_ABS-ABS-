@@ -1,5 +1,6 @@
 package com.bookmarkers.UI.Controller;
 
+import com.bookmarkers.DB.Service.Impl.AdminServiceImpl;
 import com.bookmarkers.DB.Service.Impl.UserServiceImpl;
 import com.bookmarkers.Main;
 import com.jfoenix.controls.JFXButton;
@@ -21,7 +22,7 @@ import java.io.IOException;
  * @date : 8/25/18
  * @Description :
  */
-public class LoginController  extends Main implements ControlledStage{
+public class LoginController   implements ControlledStage{
 
         StageManager stageManager;
 
@@ -44,7 +45,7 @@ public class LoginController  extends Main implements ControlledStage{
                //
                System.out.println("正确");
                //stage.close();
-               stageManager.setStage("UI","Login");
+               stageManager.setStage("UserPanel","Login");
 
 
                //跳转至用户界面
@@ -54,9 +55,31 @@ public class LoginController  extends Main implements ControlledStage{
 
         }
 
+    @FXML
+    void loginAsAdmin(ActionEvent event) {
+        String userName = username.getText();
+        String passWord = password.getText();
+        System.out.println(userName + passWord);
+        boolean result =  new AdminServiceImpl().login(userName,passWord);
+        if(result){
+            //
+            System.out.println("管理员登陆成功");
+            //stage.close();
+            stageManager.setStage("AdminPanel","Login");
+
+
+            //跳转至用户界面
+        }
+        //弹出登陆失败界面
+        else System.out.println("login failed");
+
+    }
+
     @Override
     public void setStageController(StageManager stageManager) {
         this.stageManager = stageManager;
     }
+
+
 }
 
