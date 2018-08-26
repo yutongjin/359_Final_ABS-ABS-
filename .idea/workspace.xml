@@ -2,56 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f59854fd-ce7d-4979-b4a1-237490209649" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/UI.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/bookmarkers/UserHome.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/359_FinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/359_FinalProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/AbstractDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/AbstractDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/AdminDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/AdminDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/Impl/ItemDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/Impl/ItemDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/Impl/UserDAOImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/Impl/UserDAOImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/ItemDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/ItemDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/SearchStrategy/SearchByAuthor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/SearchStrategy/SearchById.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/SearchStrategy/SearchByKeywords.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/UserDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DAO/UserDAO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DatabaseConnection/DataBaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/DatabaseConnection/DataBaseConnection.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Factory/DAOFactory/DAOFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Factory/DAOFactory/DAOFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Factory/DAOFactory/ServiceFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Factory/DAOFactory/ServiceFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/JSON/JSON.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/JSON/JSON.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/LookUp/ByType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/LookUp/TestFindByType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/Impl/ItemServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/Impl/ItemServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/ItemService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/ItemService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/SearchService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/TestService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/TestService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/DB/Service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Admin/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Admin/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Book.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/BookSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/BookSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/IndividualItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/IndividualItem.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Magazine.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Magazine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Set.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Set.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Art.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Art.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Business.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Business.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Engineering.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Engineering.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Fiction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Fiction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Science.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Science.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Type.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Type/Type.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Video.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/Video.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/VideoSet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Item/VideoSet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Mediator/ConcreteMediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Mediator/ConcreteMediator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Mediator/Mediator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/Mediator/Mediator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/User/TestCheckout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/User/TestCheckout.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/User/TestReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/User/TestReturn.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/User/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Data/User/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/359_FinalProject/com/bookmarkers/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/bookmarkers/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/bookmarkers/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControllerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,15 +73,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item" pinned="false" current-in-tab="false">
-        <entry file="das://2bee6507-61c0-47ca-8dd1-64925b46f912/schema/cooper1/table/item">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/Data/User/User.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -173,8 +116,8 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="263">
-              <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="218">
+              <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#200#201#0" expanded="true" />
@@ -187,8 +130,8 @@
       <file leaf-file-name="ControllerTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+            <state relative-caret-position="266">
+              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,6 +147,15 @@
             </state>
           </provider>
           <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file leaf-file-name="359_FinalProject.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/359_FinalProject.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="UserHome.fxml" pinned="false" current-in-tab="false">
@@ -355,22 +307,7 @@
             </path>
             <path>
               <item name="359_FFFFF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="mysql-connector-java-5.1.46.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="359_FFFFF" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="359_FFFFF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-            <path>
-              <item name="359_FFFFF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
           </expand>
           <select />
@@ -504,16 +441,15 @@
       <workItem from="1534975311820" duration="9500000" />
       <workItem from="1535067792993" duration="1987000" />
       <workItem from="1535137165467" duration="7082000" />
-      <workItem from="1535229949970" duration="10533000" />
+      <workItem from="1535229949970" duration="11091000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80480000" />
+    <option name="totallyTimeSpent" value="81038000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -524,13 +460,12 @@
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32948717" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32948717" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.34406295" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34406295" />
       <window_info anchor="right" id="Database" order="6" visible="true" weight="0.16452074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24964234" />
@@ -543,6 +478,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.32948717" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
@@ -562,13 +498,6 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/359_FinalProject.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -941,26 +870,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/UI.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="11" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="263">
-          <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/UserHome.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -969,10 +878,37 @@
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/UI.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="11" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="11" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/359_FinalProject.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/bookmarkers/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
+        <state relative-caret-position="266">
+          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
