@@ -17,7 +17,7 @@ public class ControllerTest {
 
     @FXML
     private JFXButton button;
-
+    private JFXButton login;
     @FXML
     void onButonCLick(ActionEvent event) {
         if (button.getText().equals(ASS_WE_CAN)) button.setText(BOY_NEXT_DOOR);
@@ -26,7 +26,7 @@ public class ControllerTest {
     @FXML
     public void Userlogin(ActionEvent actionEvent) {
         TextArea textArea = new TextArea();
-
+        login
     }
 }
 
